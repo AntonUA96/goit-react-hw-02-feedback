@@ -1,0 +1,16 @@
+.button {
+  background-color: rgb(207, 206, 206);
+  border-radius: 3px;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  box-shadow: 0 0 5px red;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(238, 77, 77);
+}
